@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/menu"
+    android:layout_marginStart="7dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/menu_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true" />
+    <TextView
+        android:id="@+id/menu_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/invisible_text"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="14dp" />
+    <Button
+        android:id="@+id/menu_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="0dp"
+        android:background="@color/invisible_btn" />
+</FrameLayout>
